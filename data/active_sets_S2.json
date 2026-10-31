@@ -1,0 +1,61 @@
+{
+ "2012": [
+  "WGDP",
+  "MW",
+  "RRMW",
+  "RRAW",
+  "RRPW",
+  "RRWEEE",
+  "CMU",
+  "INV",
+  "GVA",
+  "EMP",
+  "PAT"
+ ],
+ "2016": [
+  "WGDP",
+  "MW",
+  "RRMW",
+  "RRAW",
+  "RRPW",
+  "RRWEEE",
+  "CMU",
+  "INV",
+  "GVA",
+  "EMP",
+  "PAT"
+ ],
+ "2020": [
+  "WGDP",
+  "MW",
+  "RRMW",
+  "RRPW",
+  "RRWEEE",
+  "CMU",
+  "INV",
+  "GVA",
+  "EMP",
+  "PAT",
+  "FW"
+ ],
+ "2023": [
+  "MF",
+  "RP",
+  "WG",
+  "WGDP",
+  "MW",
+  "FW",
+  "PW",
+  "PPW",
+  "RRMW",
+  "RRPW",
+  "RRWEEE",
+  "CMU",
+  "INV",
+  "GVA",
+  "EMP",
+  "CF",
+  "GHG",
+  "MID"
+ ]
+}

@@ -1,0 +1,21 @@
+ind,name,dim,direction,dataset,filter
+MF,Material footprint (t/cap),PC,cost,cei_pc020,{}
+RP,Resource productivity (PPS/kg),PC,benefit,cei_pc030,"{""unit"": ""PPS_KG""}"
+WG,Total waste generation (kg/cap),PC,cost,cei_pc034,{}
+WGDP,Waste excl. major mineral per GDP (kg/kEUR),PC,cost,cei_pc032,{}
+MW,Municipal waste generation (kg/cap),PC,cost,cei_pc031,{}
+FW,Food waste (kg/cap),PC,cost,cei_pc035,{}
+PW,Packaging waste generation (kg/cap),PC,cost,cei_pc040,{}
+PPW,Plastic packaging waste generation (kg/cap),PC,cost,cei_pc050,{}
+RRMW,Recycling rate of municipal waste (%),WM,benefit,cei_wm011,{}
+RRAW,Recycling rate of all waste excl. mineral (%),WM,benefit,cei_wm010,{}
+RRPW,Recycling rate of packaging waste (%),WM,benefit,cei_wm020,"{""waste"": ""W1501""}"
+RRWEEE,Recycling rate of WEEE separately collected (%),WM,benefit,cei_wm060,{}
+CMU,Circular material use rate (%),SRM,benefit,cei_srm030,{}
+INV,Private investment in CE sectors (% GDP),CIE,benefit,cei_cie012,"{""indic_env"": ""INV"", ""unit"": ""PC_GDP""}"
+GVA,Gross value added of CE sectors (% GDP),CIE,benefit,cei_cie012,"{""indic_env"": ""GVA"", ""unit"": ""PC_GDP""}"
+EMP,"Employment in CE sectors (% total, FTE)",CIE,benefit,cei_cie011,"{""unit"": ""PC_EMP_FTE""}"
+PAT,Recycling/SRM patents (per million inh.),CIE,benefit,cei_cie020,"{""unit"": ""P_MHAB""}"
+CF,Consumption footprint (score/inh.),GSR,cost,cei_gsr010,"{""cons_fp"": ""SWS"", ""unit"": ""P_HAB""}"
+GHG,GHG emissions from production (kg/cap),GSR,cost,cei_gsr011,{}
+MID,Material import dependency (%),GSR,cost,cei_gsr030,{}

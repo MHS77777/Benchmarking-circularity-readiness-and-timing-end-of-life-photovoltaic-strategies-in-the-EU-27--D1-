@@ -1,0 +1,47 @@
+{
+ "window": [
+  2021,
+  2024
+ ],
+ "proxies": {
+  "C1": [
+   "WEEE_COLRATE",
+   "WGI_RQ"
+  ],
+  "C2": [
+   "WGI_RL",
+   "PV_CAPTURE"
+  ],
+  "C3": [
+   "CE_EMP",
+   "CE_INV",
+   "WEEE_RCYRATE"
+  ],
+  "C4": [
+   "WEEE_HH_KGCAP",
+   "MW_RECYCLING"
+  ]
+ },
+ "descriptions": {
+  "WEEE_COLRATE": "WEEE collection rate: tonnes collected / 3-year mean tonnes put on market (Eurostat env_waseleeos, EE6)",
+  "WGI_RQ": "Regulatory Quality estimate (World Bank WGI)",
+  "WGI_RL": "Rule of Law estimate (World Bank WGI)",
+  "PV_CAPTURE": "PV panels collected / modelled central arisings, capped at 1 (Eurostat EE_LE_PVP vs Layer B)",
+  "CE_EMP": "Employment in circular-economy sectors, % of total (Eurostat cei_cie011)",
+  "CE_INV": "Private investment in circular-economy sectors, % GDP (Eurostat cei_cie012)",
+  "WEEE_RCYRATE": "WEEE recycled and prepared for reuse / WEEE collected (Eurostat env_waseleeos, EE6)",
+  "WEEE_HH_KGCAP": "WEEE collected from households, kg per inhabitant (Eurostat env_waseleeos, EE6)",
+  "MW_RECYCLING": "Recycling rate of municipal waste, % (Eurostat cei_wm011)"
+ },
+ "rho_notes": {
+  "a1": "Reuse needs preparing-for-reuse standards and re-certification rules (C1), refurbishers and a used-module market (C3), and buyer acceptance of used modules (C4); acceptance becomes decisive for old vintages in H3 (Tsanakas et al. 2020).",
+  "a2": "Cascading through repowering is enabled by repowering rules and warranty transfer (C1) and by second-use demand (C3, C4).",
+  "a3": "Export hinges on the used-equipment/waste boundary and shipment rules (C1) and on their enforcement (C2); it needs only traders (C3).",
+  "a4": "Bulk recycling is already mandated by the WEEE Directive (C1 moderate) and needs treatment capacity (C3).",
+  "a5": "High-value recycling needs recovery targets or CRM crediting (C1) and, above all, recyclers and secondary-material buyers (C3), a dependence that falls as the technology matures (Heath et al. 2020; Deng et al. 2019).",
+  "a6": "Formalised take-back needs EPR scheme design (C1), certified collection and leakage control (C2), installer and PRO actors (C3), and willingness of owners to hand over modules (C4).",
+  "a7": "Disposal is the default where regulation, enforcement and public participation are weak; strong institutions reduce its feasibility (inverse)."
+ },
+ "coverage_min": 1,
+ "missing_cells": 8
+}

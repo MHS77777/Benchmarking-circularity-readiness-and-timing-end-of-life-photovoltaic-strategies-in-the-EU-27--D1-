@@ -1,0 +1,2 @@
+# Session 10 report — final submission build (30 October 2026)
+See ANALYSIS.md §10. Manuscript rebuilt from the authors' final five-author source with front-matter corrections and the completed AI declaration (Elsevier title; Methods §3.7). 31 pages, 99 references, 0 LaTeX errors. Cover letter re-issued from the corresponding authors with four verified reviewer suggestions. Submission, Zenodo and repository packages rebuilt.

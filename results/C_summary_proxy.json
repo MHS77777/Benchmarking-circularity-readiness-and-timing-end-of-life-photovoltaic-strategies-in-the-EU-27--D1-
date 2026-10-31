@@ -1,0 +1,55 @@
+{
+ "label": "proxy",
+ "n_experts": 0,
+ "A_t": {
+  "H1": [
+   "C1",
+   "C2",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C9"
+  ],
+  "H2": [
+   "C1",
+   "C2",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C8",
+   "C9"
+  ],
+  "H3": [
+   "C2",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C8",
+   "C9"
+  ]
+ },
+ "group_weights": {
+  "inst": 0.4,
+  "econ": 0.15,
+  "env": 0.3,
+  "soc": 0.15
+ },
+ "cost_scale": {
+  "L": 0.9,
+  "EW": 1.0,
+  "LW": 1.15
+ },
+ "sens_tau_min": 0.6819517930629042,
+ "sens_tau_mean": 0.7726521164021163,
+ "top1_agree_mean": 0.96875,
+ "topsis_tau": 0.9600235155790711,
+ "pooled_vs_dfss_tau": 1.0,
+ "loo_tau_min": null,
+ "mean_consensus_mad": null
+}

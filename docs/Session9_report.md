@@ -1,0 +1,3 @@
+# Session 9 report — second audit response (22 October 2026)
+
+See `ANALYSIS.md` §9 for the itemised log. Summary: 9 new definite errors, 10 carried-over definite errors, 14 probable issues, 17 minor issues and 6 minor-wording items were checked against the data; two (Table 10 Σ ranks; Portugal per-capita mass) were not errors and are documented rather than changed. The main substantive change is the treatment of readiness-gap uncertainty: rank probabilities from the joint Monte Carlo draws replace band-overlap statements (top three rank-stable in 100 % of draws; Germany/Malta share fourth). The only numerical model change is the asymmetric cost factor (ranks unchanged). Manuscript: 31 pp, 99 references, 0 LaTeX errors; abstract 250 words; highlights ≤ 83 characters.

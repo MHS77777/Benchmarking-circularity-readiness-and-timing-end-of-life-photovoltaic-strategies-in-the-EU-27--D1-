@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Will Europe's circular economy be ready for its solar waste wave? Analysis repository (EU-27 circularity readiness and end-of-life PV strategies, dynamic fuzzy soft sets)"
+authors:
+  - family-names: Saeed
+    given-names: Muhammad Haris
+    affiliation: Department of Chemistry, University of Management and Technology, Lahore, Pakistan
+  - family-names: Saeed
+    given-names: Muhammad
+    affiliation: Department of Mathematics, University of Management and Technology, Lahore, Pakistan
+  - family-names: Habib
+    given-names: Muhammad Salman
+    affiliation: Institute of Knowledge Services, Center for Creative Convergence Education, Hanyang University ERICA Campus, Ansan, South Korea
+  - family-names: Ullah
+    given-names: Mehran
+    affiliation: School of Business and Creative Industries, University of the West of Scotland, Paisley, United Kingdom
+  - family-names: Khan
+    given-names: Zeshan Aslam
+    affiliation: International Graduate School of Artificial Intelligence, National Yunlin University of Science and Technology, Douliu, Taiwan
+date-released: 2026-10-30
+version: 1.1.0
+license: MIT
+message: "If you use this repository, please cite the associated manuscript (Renewable and Sustainable Energy Reviews, submitted)."

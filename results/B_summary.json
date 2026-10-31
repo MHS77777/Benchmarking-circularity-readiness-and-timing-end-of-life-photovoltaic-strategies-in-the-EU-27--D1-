@@ -1,0 +1,76 @@
+{
+ "pi_early_share": 0.18,
+ "country_pi": {
+  "BE": 0.095,
+  "CZ": 0.025,
+  "DE": 0.045,
+  "ES": 0.0,
+  "FR": 0.28,
+  "IT": 0.11,
+  "NL": 0.135,
+  "PL": 0.885,
+  "PT": 0.16
+ },
+ "n_fit": 71,
+ "ETA": 30.0,
+ "alpha": {
+  "early": 2.4928,
+  "regular": 5.3759
+ },
+ "mass_anchors_t_per_MW": {
+  "1990": 140.0,
+  "2000": 120.0,
+  "2010": 100.0,
+  "2016": 85.0,
+  "2020": 65.0,
+  "2024": 55.0,
+  "2050": 42.0
+ },
+ "composition": {
+  "glass": 0.755,
+  "aluminium": 0.08,
+  "polymer": 0.1,
+  "silicon": 0.05,
+  "copper": 0.01,
+  "silver": 0.0005,
+  "other": 0.0045
+ },
+ "EU27_cumulative_Mt_flat": {
+  "early": {
+   "2030": 3.2169879558757133,
+   "2040": 11.0801481608729,
+   "2050": 25.925739266329703
+  },
+  "central": {
+   "2030": 1.369013301810803,
+   "2040": 7.249214235438419,
+   "2050": 20.911990696798497
+  },
+  "regular": {
+   "2030": 0.9633603289672865,
+   "2040": 6.408277520099143,
+   "2050": 19.81141174251116
+  }
+ },
+ "EU27_cumulative_2050_Mt_stock_only": {
+  "early": 15.124806140273472,
+  "central": 15.439475024064395,
+  "regular": 15.50854868148191
+ },
+ "EU27_MC_band": {
+  "cum2040_p10_kt": 4721.353690554607,
+  "cum2040_p90_kt": 11234.091235537979,
+  "cum2050_p10_kt": 15968.766995491607,
+  "cum2050_p90_kt": 26943.95498442822,
+  "sum_of_country_p10_2050_kt": 15961.4,
+  "sum_of_country_p90_2050_kt": 27009.34
+ },
+ "EU27_peak_year_central_flat": 2050,
+ "EU27_peak_annual_kt_central_flat": 1808.4064262565864,
+ "archetype_counts": {
+  "EW: converging, early wave": 10,
+  "LW: converging, late wave": 9,
+  "L: consolidated leaders": 8
+ },
+ "median_onset_converging": 2035.0
+}

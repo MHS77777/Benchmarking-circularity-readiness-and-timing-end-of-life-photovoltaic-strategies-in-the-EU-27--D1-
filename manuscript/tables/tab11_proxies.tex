@@ -1,0 +1,28 @@
+\begin{table*}[pos=t]\centering\scriptsize
+\caption{Institutional criteria from public data. Upper block: proxy indicators per criterion (2021--2024 means; WGI 2021--2023, ratio-normalised across EU-27 and averaged within the criterion) and the resulting archetype capacities $\kappa_{g,c}$. Lower block: requirement matrix $\rho(a,c)$ (1.00 pathway hinges on the capacity; 0.75 strongly depends; 0.50 moderately; 0.25 weakly; ``inv'' = strong institutions reduce feasibility), with H1$\to$H3 changes where the requirement evolves. Feasibility $f=1-\rho(1-\kappa)$, or $1-\rho\kappa$ for inverse entries; archetype spread gives the fuzzy support.}
+\label{tab:proxies}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{@{}p{3.1cm}p{8.6cm}ccc@{}}\toprule
+Criterion & Proxy indicator (source) & $\kappa_L$ & $\kappa_{EW}$ & $\kappa_{LW}$ \\ \midrule
+C1 Regulatory readiness & WEEE collection rate: tonnes collected / 3-year mean tonnes put on market (Eurostat env\_waseleeos, EE6) & 0.55 & 0.41 & 0.50 \\
+ & Regulatory Quality estimate (World Bank WGI) &  & &  \\
+\addlinespace
+C2 Enforcement \& compliance & Rule of Law estimate (World Bank WGI) & 0.69 & 0.44 & 0.54 \\
+ & PV panels collected / modelled central arisings, capped at 1 (Eurostat EE\_LE\_PVP vs Layer B) &  & &  \\
+\addlinespace
+C3 Actor \& market readiness & Employment in circular-economy sectors, \% of total (Eurostat cei\_cie011) & 0.66 & 0.54 & 0.56 \\
+ & Private investment in circular-economy sectors, \% GDP (Eurostat cei\_cie012) &  & &  \\
+ & WEEE recycled and prepared for reuse / WEEE collected (Eurostat env\_waseleeos, EE6) &  & &  \\
+\addlinespace
+C4 Social acceptance & WEEE collected from households, kg per inhabitant (Eurostat env\_waseleeos, EE6) & 0.72 & 0.50 & 0.56 \\
+ & Recycling rate of municipal waste, \% (Eurostat cei\_wm011) &  & &  \\
+\addlinespace
+\midrule
+Requirement $\rho(a,c)$ by alternative & C1 Regulatory readiness & C2 Enforcement & C3 Actors \& market & C4 Acceptance \\ \midrule
+$a_1$ Repair \& refurbish (reuse) & 0.75 & 0.50 & 0.75 & 0.75$\to$1.00 \\
+$a_2$ Cascaded second use & 0.75 & 0.50 & 0.50 & 0.50$\to$0.75 \\
+$a_3$ Export for second life & 1.00 & 1.00 & 0.25 & 0.50 \\
+$a_4$ Bulk mechanical recycling & 0.50 & 0.50 & 0.75 & 0.25 \\
+$a_5$ High-value recycling & 0.75 & 0.50 & 1.00$\to$0.50 & 0.25 \\
+$a_6$ Formalised take-back & 0.75 & 0.75 & 0.75$\to$0.50 & 0.75 \\
+$a_7$ Landfill / incineration & inv\,1.00 & inv\,1.00 & 0.25 & inv\,0.75 \\
+\bottomrule\end{tabular}\end{adjustbox}\end{table*}

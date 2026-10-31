@@ -1,0 +1,59 @@
+molodtsov1999: added DOI 10.1016/S0898-1221(99)00056-5
+cagman2011: added DOI 10.22111/ijfs.2011.292
+alcantud2024review: added DOI 10.1007/s00521-024-09552-x
+alcantud2018intertemporal: added DOI 10.3390/sym10090371
+liu2020intertemporal: added DOI 10.1007/s40815-020-00798-w
+chen2000topsis: added DOI 10.1016/S0165-0114(97)00377-1
+hwang1981: added DOI 10.1007/978-3-642-48318-9
+kirchherr2017: added DOI 10.1016/j.resconrec.2017.09.005
+oecd2008handbook: added DOI 10.1787/9789264043466-en
+saisana2005: added DOI 10.1111/j.1467-985X.2005.00350.x
+irena2016: added DOI 10.2172/1561525
+xu2018: added DOI 10.1016/j.wasman.2018.01.036
+chowdhury2020: added DOI 10.1016/j.esr.2019.100431
+paiano2015: added DOI 10.1016/j.rser.2014.07.208
+santos2018: added DOI 10.1016/j.jclepro.2018.05.252
+dominguez2017: added DOI 10.1016/j.resconrec.2017.08.013
+mahmoudi2019: added DOI 10.1016/j.resconrec.2019.03.039
+gautam2021: added DOI 10.1016/j.spc.2020.09.011
+farrell2020: added DOI 10.1016/j.rser.2020.109911
+ansanelli2021: added DOI 10.1016/j.apenergy.2021.116727
+hosseini2026: added DOI 10.1016/j.rser.2026.117237
+alqahtani2025: added DOI 10.3390/su17167301
+weibull1951: added DOI 10.1115/1.4010337
+rousseeuw1987: added DOI 10.1016/0377-0427(87)90125-7
+hennig2007: added DOI 10.1016/j.csda.2006.11.025
+kendall1938: added DOI 10.1093/biomet/30.1-2.81
+dalkey1963: added DOI 10.1287/mnsc.9.3.458
+ishikawa1993: added DOI 10.1016/0165-0114(93)90251-C
+shannon1948: added DOI 10.1002/j.1538-7305.1948.tb01338.x
+geissdoerfer2017: added DOI 10.1016/j.jclepro.2016.12.048
+mayer2019: added DOI 10.1111/jiec.12809
+haas2015: added DOI 10.1111/jiec.12244
+moraga2019: added DOI 10.1016/j.resconrec.2019.03.045
+saidani2019: added DOI 10.1016/j.jclepro.2018.10.014
+ashraf2025: added DOI 10.1016/j.ins.2024.121334
+zeb2024: added DOI 10.1016/j.apenergy.2024.123405
+wambach2017: added DOI 10.2172/1561522
+komoto2018: added DOI 10.2172/1561523
+ghasemi2026: author 'Ghasemi, M. and others' -> 'Ghasemi, S. and Sadeghkhani, I.' (Crossref: two authors, first initial S.)
+ghasemi2026: number None -> '1' (Crossref)
+fortea2026: author 'Fortea, C. and others' -> 'Fortea, C. and Antohi, V. M. and Hassan, R. and Andrei, J. V. and Erokhin, V.' (Crossref full author list)
+fortea2026: volume None -> '33' (now in issue)
+fortea2026: number None -> '4' (now in issue)
+fortea2026: pages None -> '4688--4724' (now in issue)
+kamaci2024: author 'Kamac{\\i}, H. and Petchimuthu, S. and Banu M., F. and others' -> 'Kamac{\\i}, H. and Petchimuthu, S. and Banu M., F. and {\\"O}zl{\\"u}, {\\c{S}}.' (journal page: fourth author)
+bai2024: author 'Bai, J. and Qin, X. and Huang, L. and others' -> 'Bai, J. and Qin, X. and Huang, L. and Chen, Q.' (Crossref: fourth author)
+hosseini2026: volume None -> '241' (published, Crossref)
+hosseini2026: pages None -> '117237' (published, Crossref)
+hosseini2026: doi '10.1016/j.rser.2026.117237' -> '10.1016/j.rser.2026.117237' (Crossref, same PII)
+islam2020: doi '10.1177/0734242X20962930' -> '10.1177/0734242X20962837' (previous DOI not registered with Crossref)
+espr2025wp: title 'Ecodesign for Sustainable Products Regulation working plan 2025--2030, {COM(2025) 187 final}' -> 'Ecodesign for Sustainable Products and Energy Labelling working plan 2025--2030, {COM(2025) 187 final}' (official title)
+neri2027: note 'in press; VERIFY full author list and volume' -> ''
+hosseini2026: note 'in press, Elsevier PII S1364032126005368; VERIFY volume and article number' -> ''
+ghasemi2026: note 'VERIFY co-author list' -> ''
+maani2020: note 'VERIFY author list' -> ''
+huang2017: note 'VERIFY DOI' -> ''
+komoto2018: note 'Report T12-10:2018; VERIFY author list' -> 'Report T12-10:2018'
+islam2020: note 'VERIFY DOI' -> ''
+fortea2026: note 'VERIFY co-author list' -> ''

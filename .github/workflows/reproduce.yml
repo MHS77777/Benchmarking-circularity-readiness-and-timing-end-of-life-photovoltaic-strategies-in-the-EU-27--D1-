@@ -1,0 +1,38 @@
+name: Reproduce results
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run the full pipeline offline from data/raw
+        run: ./reproduce.sh
+      - name: Check that headline numbers are unchanged
+        run: |
+          python3 - <<'PY'
+          import json, pandas as pd
+          s = json.load(open("results/B_summary.json"))["EU27_cumulative_Mt_flat"]["central"]
+          assert abs(s["2040"] - 7.25) < 0.05 and abs(s["2050"] - 20.91) < 0.05, s
+          d = pd.read_csv("results/S2_activation_decomposition.csv"); x = d[d["to"] == 2023]
+          share = x.structural_effect.abs().sum() / (x.structural_effect.abs() + x.value_effect.abs()).sum()
+          assert abs(share - 0.647) < 0.005, share
+          g = pd.read_csv("results/B_readiness_gap.csv", index_col=0).sort_values("gap_rank")
+          assert list(g.index[:3]) == ["EL", "BG", "CY"], list(g.index[:3])
+          print("headline checks passed:", s, round(share, 3), list(g.index[:3]))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reproduced-outputs
+          path: |
+            results/
+            figs/
+            workbooks/
